@@ -1,3 +1,9 @@
+"""
+This solution solved by "Two Pointers" which time complexity 
+is nlogn that makes it better than n**2
+"""
+
+
 class Solution:
     def twoSum(self, nums: list[int], target: int) -> list[int]:
         if len(nums) == 2:
